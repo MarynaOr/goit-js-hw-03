@@ -12,7 +12,6 @@ function slugify(title) {
   title = title.toLowerCase();
   title = title.split(" ");
   title = title.join("-");
-  title = title.trim();
   return title;
 }
 
